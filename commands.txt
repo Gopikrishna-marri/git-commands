@@ -10,3 +10,13 @@ git push -u origin main
 git remote add origin https://github.com/Gopikrishna-marri/git-commands.git
 git branch -M main
 git push -u origin main
+
+
+
+git init
+git add first.txt
+git add second.py
+git commint -m "adding files from staging to local repository"
+git remote add origin https://github.com/Gopikrishna-marri/git-commands.git
+git push -u origin master
+git checkout -b "new-branch-name"
