@@ -20,3 +20,8 @@ git commint -m "adding files from staging to local repository"
 git remote add origin https://github.com/Gopikrishna-marri/git-commands.git
 git push -u origin master
 git checkout -b "new-branch-name"
+
+
+git add third.txt
+git commit -m "new coment"
+git push --set-upstream origin new-branch-name
